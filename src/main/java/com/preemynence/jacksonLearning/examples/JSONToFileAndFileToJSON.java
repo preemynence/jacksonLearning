@@ -1,12 +1,13 @@
 package com.preemynence.jacksonLearning.examples;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.preemynence.jacksonLearning.Examples;
 import com.preemynence.jacksonLearning.model.Car;
 
 import java.io.File;
 import java.io.IOException;
 
-public class JSONToFileAndFileToJSON {
+public class JSONToFileAndFileToJSON implements Examples {
 
 	public void runExample() {
 		try {
