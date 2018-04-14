@@ -2,12 +2,13 @@ package com.preemynence.jacksonLearning.examples;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.preemynence.jacksonLearning.Examples;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.Iterator;
 
-public class JacksonTreeModelExample implements com.preemynence.jacksonLearning.Examples {
+public class JacksonTreeModelExample implements Examples {
 
 	private String fileName = "target/streamExample.json";
 
