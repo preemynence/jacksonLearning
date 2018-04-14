@@ -7,12 +7,9 @@ import com.preemynence.jacksonLearning.examples.JacksonTreeModelExample;
 public class Application {
 
 	public static void main(String args[]){
-		Examples examples = new JSONToFileAndFileToJSON();
-		examples.runExample();
-		examples = new JacksonStreamExample();
-		examples.runExample();
-		examples = new JacksonTreeModelExample();
-		examples.runExample();
+		new JSONToFileAndFileToJSON().runExample();
+		new JacksonStreamExample().runExample();
+		new JacksonTreeModelExample().runExample();
 	}
 
 }

@@ -133,13 +133,13 @@ public class JacksonStreamExample implements Examples {
 				String fieldName = jParser.getCurrentName();
 				if ("color".equals(fieldName)) {
 					getNextToken(jParser);
-					System.out.println("color=" + jParser.getText()); // display mkyong
+					System.out.println("color=" + jParser.getText());
 				} else if ("category".equals(fieldName)) {
 					getNextToken(jParser);
-					System.out.println("category=" + jParser.getText()); // display mkyong
+					System.out.println("category=" + jParser.getText());
 				} else if ("type".equals(fieldName)) {
 					getNextToken(jParser);
-					System.out.println("type=" + jParser.getText()); // display mkyong
+					System.out.println("type=" + jParser.getText());
 				} else if ("code".equals(fieldName)) {
 					while (getNextToken(jParser) != JsonToken.END_OBJECT) {
 						fieldName = jParser.getCurrentName();
@@ -156,7 +156,7 @@ public class JacksonStreamExample implements Examples {
 							System.out.println("]");
 						} else if ("hex".equals(fieldName)) {
 							getNextToken(jParser);
-							System.out.println("hex=" + jParser.getText()); // display mkyong
+							System.out.println("hex=" + jParser.getText());
 						}
 					}
 				}
