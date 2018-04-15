@@ -9,18 +9,16 @@ import java.io.IOException;
 
 public class JSONToFileAndFileToJSON implements Examples {
 
-	private String fileName = "target/simpleObject.json";
-
 	public void runExample() {
 		try {
 //			Create JSON file
 			ObjectMapper objectMapper = new ObjectMapper();
 			Car car = new Car("yellow", "renault");
-			objectMapper.writeValue(new File(fileName), car);
+			objectMapper.writeValue(new File(FILE_NAME), car);
 
 //			Read json from file
 			ObjectMapper objectMapper1 = new ObjectMapper();
-			Car car1 = objectMapper1.readValue(new File(fileName), Car.class);
+			Car car1 = objectMapper1.readValue(new File(FILE_NAME), Car.class);
 
 //          print cars
 			System.out.println(car1);

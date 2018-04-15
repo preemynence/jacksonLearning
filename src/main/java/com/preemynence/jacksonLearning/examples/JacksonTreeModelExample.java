@@ -10,13 +10,11 @@ import java.util.Iterator;
 
 public class JacksonTreeModelExample implements Examples {
 
-	private String fileName = "target/streamExample.json";
-
 	@Override
 	public void runExample() {
 		try {
 			ObjectMapper mapper = new ObjectMapper();
-			JsonNode root = mapper.readTree(new File(fileName));
+			JsonNode root = mapper.readTree(new File(FILE_NAME));
 
 			JsonNode colors = root.path("colors");
 

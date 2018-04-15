@@ -9,8 +9,6 @@ import java.io.IOException;
 
 public class JacksonStreamExample implements Examples {
 
-	private String fileName = "target/streamExample.json";
-
 	public void runExample() {
 		streamWriter();
 		streamReader();
@@ -22,7 +20,7 @@ public class JacksonStreamExample implements Examples {
 			JsonFactory jsonFactory = new JsonFactory();
 
 			// read from file
-			JsonParser jParser = jsonFactory.createParser(new File(fileName));
+			JsonParser jParser = jsonFactory.createParser(new File(FILE_NAME));
 
 			readObject(jParser);
 
@@ -49,7 +47,7 @@ public class JacksonStreamExample implements Examples {
 			JsonFactory jsonFactory = new JsonFactory();
 
 			// write to file
-			JsonGenerator jGenerator = jsonFactory.createGenerator(new File(fileName
+			JsonGenerator jGenerator = jsonFactory.createGenerator(new File(FILE_NAME
 			), JsonEncoding.UTF8);
 			jGenerator.writeStartObject(); // {
 			jGenerator.writeArrayFieldStart("colors");
