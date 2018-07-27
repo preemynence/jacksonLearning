@@ -1,4 +1,4 @@
-package com.preemynence.jacksonLearning.model;
+package com.preemynence.jackson.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;

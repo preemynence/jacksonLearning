@@ -1,13 +1,13 @@
-package com.preemynence.jacksonLearning.examples;
+package com.preemynence.jackson.examples;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.preemynence.jacksonLearning.model.Color;
-import com.preemynence.jacksonLearning.model.Colors;
+import com.preemynence.jackson.model.Color;
+import com.preemynence.jackson.model.Colors;
 
 import java.io.File;
 import java.io.IOException;
 
-public class JacksonDataBindExample implements com.preemynence.jacksonLearning.Examples {
+public class JacksonDataBindExample implements com.preemynence.jackson.Examples {
 	@Override
 	public void runExample() {
 		try {

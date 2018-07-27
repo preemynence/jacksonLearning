@@ -1,10 +1,10 @@
-package com.preemynence.jacksonLearning.scenarios;
+package com.preemynence.jackson.scenarios;
 
 import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonGenerationException;
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.JsonMappingException;
-import com.preemynence.jacksonLearning.Examples;
+import com.preemynence.jackson.Examples;
 
 import java.io.File;
 import java.io.IOException;
@@ -13,11 +13,10 @@ public class Scenario1 implements Examples {
 	@Override
 	public void runExample() {
 		//Read the list of JSON files in to JSON Objects.
-		String file1, file2, file3, file4;
-		file1 = "target/test1.json";
-		file2 = "target/test2.json";
-		file3 = "target/test3.json";
-		file4 = "target/test4.json";
+		String file1 = "target/test1.json";
+		String file2 = "target/test2.json";
+		String file3 = "target/test3.json";
+		String file4 = "target/test4.json";
 		readJsonFilesFromLocation(file1, file2, file3, file4);
 
 		//Parse and discard the wrong JSON and process only valid JSON.

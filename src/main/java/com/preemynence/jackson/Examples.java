@@ -1,4 +1,4 @@
-package com.preemynence.jacksonLearning;
+package com.preemynence.jackson;
 
 public interface Examples {
 

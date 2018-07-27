@@ -1,4 +1,4 @@
-package com.preemynence.jacksonLearning.model;
+package com.preemynence.jackson.model;
 
 import lombok.Data;
 
@@ -6,5 +6,5 @@ import java.util.List;
 
 @Data
 public class Colors {
-	List<Color> colors;
+	private List<Color> colors;
 }

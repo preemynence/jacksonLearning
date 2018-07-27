@@ -1,8 +1,8 @@
-package com.preemynence.jacksonLearning.examples;
+package com.preemynence.jackson.examples;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.preemynence.jacksonLearning.Examples;
+import com.preemynence.jackson.Examples;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,8 +1,8 @@
-package com.preemynence.jacksonLearning.examples;
+package com.preemynence.jackson.examples;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.preemynence.jacksonLearning.Examples;
-import com.preemynence.jacksonLearning.model.Car;
+import com.preemynence.jackson.Examples;
+import com.preemynence.jackson.model.Car;
 
 import java.io.File;
 import java.io.IOException;

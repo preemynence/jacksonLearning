@@ -1,10 +1,10 @@
-package com.preemynence.jacksonLearning;
+package com.preemynence.jackson;
 
-import com.preemynence.jacksonLearning.examples.JSONToFileAndFileToJSON;
-import com.preemynence.jacksonLearning.examples.JacksonDataBindExample;
-import com.preemynence.jacksonLearning.examples.JacksonStreamExample;
-import com.preemynence.jacksonLearning.examples.JacksonTreeModelExample;
-import com.preemynence.jacksonLearning.scenarios.Scenario1;
+import com.preemynence.jackson.examples.JSONToFileAndFileToJSON;
+import com.preemynence.jackson.examples.JacksonDataBindExample;
+import com.preemynence.jackson.examples.JacksonStreamExample;
+import com.preemynence.jackson.examples.JacksonTreeModelExample;
+import com.preemynence.jackson.scenarios.Scenario1;
 
 public class Application {
 
